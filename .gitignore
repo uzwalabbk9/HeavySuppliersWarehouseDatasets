@@ -1,8 +1,6 @@
 # Virtual environment
 .venv/
 
-# Processed data
-data/processed/
 
 # Python cache
 __pycache__/
