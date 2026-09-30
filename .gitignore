@@ -11,3 +11,8 @@ __pycache__/
 
 # VS Code settings
 .vscode/
+
+
+# generated data - rebuilt by run_pipeline.py
+data/processed/
+data/curated/
