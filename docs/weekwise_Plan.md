@@ -83,3 +83,29 @@ Output files generated:
 - stock_health.csv
 - demand_trends.csv
 - inventory_aging.csv
+
+# Week 5: Warehouse Operations & Efficiency
+
+Completed:
+    Warehouse Space Utilisation Analysis
+    Warehouse Throughput Analysis
+    Warehouse Capacity Analysis
+    Warehouse Performance Scoring
+    Operational Bottleneck Detection
+    Warehouse Benchmarking
+
+Generated:
+    warehouse_space_utilisation.csv
+    warehouse_throughput.csv
+    warehouse_capacity_analysis.csv
+    warehouse_performance_score.csv
+    operational_bottlenecks.csv
+    warehouse_benchmarking.csv
+
+Automation created:
+    Individual preparation scripts for all datasets
+    run_all.py pipeline
+    product_inventory_analytics.py
+    warehouse_analytics.py
+
+git commit -m "Completed Phase 2 warehouse analytics"
