@@ -1,0 +1,5 @@
+dataset,rows,missing_values,duplicates
+inventory,180,0,0
+stock_ledger,237230,0,0
+purchase_orders,24000,7110,0
+invoices,18033,0,0

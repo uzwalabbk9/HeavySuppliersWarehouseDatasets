@@ -13,6 +13,7 @@ from prepare_purchase_orders_lines import prepare_purchase_orders_lines
 from prepare_sales_orders_header import prepare_sales_orders_header
 from prepare_sales_orders_lines import prepare_sales_orders_lines
 from prepare_stock_ledger import prepare_stock_ledger
+from risk_control_analytics import risk_control_analytics
 
 
 # CURATED DATASETS
@@ -60,6 +61,7 @@ def run_all():
     prepare_sales_orders_header()
     prepare_sales_orders_lines()
     prepare_stock_ledger()
+    predictive_analytics()
 
    
     # CURATED DATASETS
@@ -110,6 +112,14 @@ def run_all():
     print("\n" + "=" * 60)
     print("PIPELINE COMPLETED SUCCESSFULLY")
     print("=" * 60)
+
+    # ==================================
+    # RISK, ANOMALY & CONTROL ANALYTICS
+    # ==================================
+
+    print("\nSTEP 8 : RISK, ANOMALY & CONTROL ANALYTICS\n")
+
+    risk_control_analytics()
 
     print("""
 Outputs Generated:

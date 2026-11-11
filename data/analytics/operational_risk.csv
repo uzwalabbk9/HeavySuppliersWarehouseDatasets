@@ -1,0 +1,1 @@
+product_id,branch_id,opening_stock,reorder_level,safety_stock,max_stock,current_stock,warehouse_bin,stock_availability_pct,reorder_flag,safety_breach
